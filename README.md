@@ -104,9 +104,12 @@ application-prod.properties  | Configurações para Produção
 </br>
 <h4> ⚙️ Local dos Arquivos de Configuração</h4>
 
+- Controller : São Classes reponsáveis por receber as requisições externas http e responder.
+- Model : 
+
 ```bash
 # Local dos arquivos 
-|- /dsdeliver
+|- /osworks-api
   |- src/main/resources
     |- application.properties
     |- application-test.properties
