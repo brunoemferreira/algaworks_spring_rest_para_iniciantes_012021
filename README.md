@@ -1,6 +1,6 @@
 <h1 align="center" style="font-size:50px;font-weight:bold">Curso Spring REST para Iniciantes</h1>
-<p align="center">De 11/01 à 18/01/2021</p>
-<p align="center">Em desenvolvimento : Aula 01 - 1:14:42</p>
+<p align="center">De 11/01 à 15/01/2021</p>
+<p align="center">Em desenvolvimento : Aula 01 Terminada</p>
 
 <p align="center">
   <a href="#sobre">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -22,7 +22,7 @@
 </p>
 <!-- ************************************* Sobre *********************************************** -->
 <h2 id="sobre"> 🚀 Sobre o Projeto</h2>
-
+<p>O Projeto do curso é criar uma API para um sistema simples de OS ( Ordens de Serviço ) </p>
 
  <!-- ************************************* Modelo Conceitual ********************************** -->
 <h2 id="diagramadeclasses"> 🗺️ Diagrama de Classes do Projeto</h2>
@@ -45,8 +45,6 @@
 - [Postman]('https://www.postman.com/downloads/')
 - [Postgres 12 e pgAdmin]('https://www.postgresql.org/download/')
 - [Heroku CLI]('https://devcenter.heroku.com/articles/heroku-cli')
-- [NPM]('https://www.npmjs.com/')
-- [VS Code]('https://code.visualstudio.com/download')
 - [Git]('https://git-scm.com/downloads')
 
 <hr>
@@ -62,18 +60,9 @@
     <img alt="Logo" src="./images/front3.png" width="600px" />
 </h1>
 </br>
-<h2 align="center">Mobile</h2>
-</br>
-<h1 align="center">
-    <img alt="Logo" src="./images/mobile1.jpg" width="300px" />
-    <img alt="Logo" src="./images/pedidos.jpg" width="300px" />
-    <img alt="Logo" src="./images/entrega.jpg" width="300px" />
-    <img alt="Logo" src="./images/pedido-confirmado.jpg" width="300px" />
-    <img alt="Logo" src="./images/maps.jpg" width="300px" />
-</h1>
 
 <!-- ************************************* Back End ******************************************** -->
-<h2 id="backend"> 🧰 Back end</h2>
+<h2 id="backend"> 🧰 API </h2>
 
 <h4> 🔨 Tecnologias</h4>
 
@@ -168,20 +157,20 @@ spring.datasource.url=${DATABASE_URL}
 </br>
 <h2 style="font-weight:bold"> 🔚 End Points da API</h2> 
 
-<h3 style="font-weight:bold"> API de Produtos </h3>
+<h3 style="font-weight:bold"> API de Clientes </h3>
 
 | Route             | Response Formats | Resource URL                                 |  Parameters |
 |-------------------|------------------|----------------------------------------------|-------------|
-| GET  /products    | JSON             | http://localhost:8080/products               | None        |
+| GET  /clientes    | JSON             | http://localhost:8080/clientes               | None        |
 
 </br>
 
 | Route             | Description                                                                    |
 |-------------------|--------------------------------------------------------------------------------|
-| GET  /products    | Retorna uma lista de todos os Produtos ordenados pelo Id em ordem ascendente   |
+| GET  /clientes    | Retorna uma lista de todos os Clientes                                         |
 
 </br>
-<h3 style="font-weight:bold">API de Pedidos</h3>
+<h3 style="font-weight:bold">Ordens de Serviço</h3>
 
 | Route             | Response Formats | Resource URL                                 |  Parameters |
 |-------------------|------------------|----------------------------------------------|-------------|
@@ -217,14 +206,14 @@ spring.datasource.url=${DATABASE_URL}
 ```
 
 </br>
-<h3> 🎲 Rodando o Back end</h3>
+<h3> 🎲 Rodando a API</h3>
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/brunoemferreira/semana_dev_superior_02.git
+$ git clone https://github.com/brunoemferreira/algaworks_spring_rest_para_iniciantes_012021.git
 
 # Acesse a pasta backend
-$ cd backend
+$ cd osworks-api
 
 # execute o comando
 $ yarn start
