@@ -1,15 +1,6 @@
-<h1 align="center" style="font-size:50px;font-weight:bold">Curso Spring REST para Iniciantes</h1>
+> <h1>Algaworks - Curso Spring REST para Iniciantes</h1>
 <p align="center">De 11/01 à 15/01/2021</p>
-<p align="center">Em desenvolvimento : Aula 01 Terminada</p>
-
-<p align="center">
-  <a href="#sobre">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#diagramadeclasses">Diagrama de Classes do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#padraocamadasadotado">Padrão de camadas adotado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#ferramentas">Ferramentas Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#api">Back end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#database">Banco de Dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
+<p align="center">Em desenvolvimento : Aula 02 Terminada</p>
 <!-- ************************************* Baadges ********************************************* -->
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brunoemferreira/algaworks_spring_rest_para_iniciantes_012021?color=%2304D361">
@@ -20,16 +11,66 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brunoemferreira/algaworks_spring_rest_para_iniciantes_012021">
   </a>
 </p>
-<!-- ************************************* Sobre *********************************************** -->
-<h2 id="sobre"> 🚀 Sobre o Projeto</h2>
-<p>O Projeto do curso é criar uma API para um sistema simples de OS ( Ordens de Serviço ) </p>
 
- <!-- ************************************* Modelo Conceitual ********************************** -->
-<h2 id="diagramadeclasses"> 🗺️ Diagrama de Classes do Projeto</h2>
+<!-- ************************************* Sobre *********************************************** -->
+> <h2>🚀 Sobre o Projeto</h2>
+<p>O Projeto criado é uma API simples de ordens de serviço </p>
+
+ <!-- ************************************* Diagrama de Classes ********************************** -->
+> <h2 id="diagramadeclasses"> 🗺️ Diagrama de Classes do Projeto</h2>
 
 <h1 align="center">
     <img alt="Logo" src="./images/diagrama.png" width="600px" />
 </h1>
+
+<!-- ***************** Tecnologias e Ferramentas *********************************************** -->
+> <h2>🛠️ Ferramentas</h2>
+* STS ( Spring Tools Suite )
+* PostMan
+
+> <h2>Linguagem e Dependências</h2>
+* Java11
+  * Spring Boot Starter Web
+  * Spring Boot Starter Test
+  * Spring Boot Starter JPA ( Spring Data JPA é uma biblioteca que ajuda criar repositórios com o Jakarta Persistence ) 
+  * Spring Boot DevTools
+  * MySql Connector Java
+  * FlyWay
+
+> <h2>🎲 Banco de Dados</h2>
+* MySQL
+
+
+Observações : 
+ Repositório : é uma Classe que tem responsabilidade de implementar métodos que fazem as operações de persistência de dados;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p align="center">
+  <a href="#sobre">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#diagramadeclasses">Diagrama de Classes do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#padraocamadasadotado">Padrão de camadas adotado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#ferramentas">Ferramentas Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#api">Back end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#database">Banco de Dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
 <!-- ********************************* Padrões de Camadas ************************************** -->
 <h2 id="padraocamadasadotado"> 🛡️ Padrão de camadas adotado</h2>
