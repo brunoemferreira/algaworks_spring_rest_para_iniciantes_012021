@@ -1,5 +1,5 @@
 > <h1>Algaworks - Curso Spring REST para Iniciantes</h1>
-<p align="center">De 11/01 à 15/01/2021</p>
+<p align="center">De 11/01 à 15/01/2021</p> 1 hora 08 minutos 13 segundos de video
 <p align="center">Em desenvolvimento : Aula 02 Terminada</p>
 <!-- ************************************* Baadges ********************************************* -->
 <p align="center">
