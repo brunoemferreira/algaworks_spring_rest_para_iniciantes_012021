@@ -248,15 +248,3 @@ $ npm start
 
 # O servidor inciará na porta:3000
 ```
-
-<hr>
-<h2 id="database"> 🗄️ Banco de Dados de Testes ( H2 )</h2>
-
-```
-// Após Rodar o Backend com profile de testes este é o endereço de acesso a interface do Banco
-
-http://localhost:8080/h2-console
-
-```
-
-
